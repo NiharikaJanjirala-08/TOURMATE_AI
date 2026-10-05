@@ -1,0 +1,17 @@
+streamlit>=1.40,<2
+sentence-transformers>=5,<7
+chromadb>=1,<2
+pypdf>=6,<7
+ollama>=0.6,<1
+pillow>=11,<13
+#Optional: Local Image Recognition
+transformers>=5,<6
+torch>=2.6,<3
+torchvision>=0.21,<1
+#Optional: Text-to-Image using Hugging Face API
+huggingface_hub>=1.0,<2
+#Optional: Local Audio-to-Text
+faster-whisper>=1.1.1
+av<14
+folium
+streamlit-folium
